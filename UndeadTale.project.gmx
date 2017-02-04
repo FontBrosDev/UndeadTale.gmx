@@ -20,6 +20,10 @@
     </sprites>
     <sprites name="UI">
       <sprite>sprites\spr_dialog_to_battle</sprite>
+      <sprite>sprites\spr_fight</sprite>
+      <sprite>sprites\spr_act</sprite>
+      <sprite>sprites\spr_item</sprite>
+      <sprite>sprites\spr_mercy</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -37,9 +41,14 @@
       <object>objects\obj_macros</object>
       <object>objects\obj_solid</object>
       <object>objects\obj_fade_in</object>
-      <object>objects\obj_nextroom</object>
-      <object>objects\obj_prevroom</object>
+      <object>objects\obj_door</object>
       <object>objects\obj_dustfall</object>
+      <object>objects\obj_door_controller</object>
+      <objects name="Spawnpoints">
+        <object>objects\obj_spawnpoint_one</object>
+        <object>objects\obj_spawnpoint_two</object>
+      </objects>
+      <object>objects\obj_spawn</object>
     </objects>
     <objects name="Effects">
       <object>objects\obj_dust</object>
@@ -50,6 +59,12 @@
           <object>objects\obj_dialog_box</object>
           <object>objects\obj_dialog_to_battle</object>
           <object>objects\obj_battle_box</object>
+        </objects>
+        <objects name="Buttons">
+          <object>objects\obj_btn_fight</object>
+          <object>objects\obj_btn_act</object>
+          <object>objects\obj_btn_item</object>
+          <object>objects\obj_btn_mercy</object>
         </objects>
       </objects>
     </objects>
