@@ -138,6 +138,7 @@ if op &lt; 1 {
 }else {
     draw_text(view_xview[0]+5,view_yview[0]+3,"QUITTING.")
 }
+draw_set_alpha(1);
 </string>
           </argument>
         </arguments>
@@ -188,7 +189,7 @@ if window_get_fullscreen() {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto_next()
+            <string>room_goto(rm_flowey)
 </string>
           </argument>
         </arguments>
