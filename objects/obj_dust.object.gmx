@@ -102,7 +102,7 @@ alarm[1] = 10;
             <kind>1</kind>
             <string>///Move
 //Move Down
-y += 5;
+y += 3;
 //Move The Particles Side to Side
 if move = 1 {
 x -= 0.2;
