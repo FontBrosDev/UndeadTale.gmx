@@ -147,6 +147,7 @@
     <instance objName="obj_spawnpoint_two" x="1235" y="340" name="inst_E250FB26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spawn" x="40" y="0" name="inst_550283BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door_controller" x="60" y="0" name="inst_AB02DE44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hide_mouse" x="80" y="0" name="inst_E1865109" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background0" x="0" y="0" w="240" h="260" xo="1" yo="12" id="10000129" name="inst_9128AD30" depth="1000000" locked="0" colour="4294967295" scaleX="2" scaleY="2"/>

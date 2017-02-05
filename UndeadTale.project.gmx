@@ -24,6 +24,7 @@
       <sprite>sprites\spr_act</sprite>
       <sprite>sprites\spr_item</sprite>
       <sprite>sprites\spr_mercy</sprite>
+      <sprite>sprites\spr_mouse</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -52,6 +53,7 @@
     </objects>
     <objects name="Effects">
       <object>objects\obj_dust</object>
+      <object>objects\obj_hide_mouse</object>
     </objects>
     <objects name="Battle">
       <objects name="UI">
