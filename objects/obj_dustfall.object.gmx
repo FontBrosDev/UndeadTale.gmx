@@ -50,7 +50,7 @@ alarm[0] = 1;
           <argument>
             <kind>1</kind>
             <string>//Create a Random Particle
-instance_create(random(room_width),random(room_height),obj_dust);
+instance_create(random(view_xview[0]+640),view_yview[0],obj_dust);
 alarm[0] = 3;
 </string>
           </argument>
